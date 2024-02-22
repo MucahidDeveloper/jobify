@@ -72,7 +72,7 @@ const router = createBrowserRouter([
         loader: dashboardLoader(queryClient),
         children: [
           {
-            path: "stats",
+            index: true,
             element: <Stats />,
             loader: statsLoader(queryClient),
             errorElement: <ErrorElement />,
@@ -84,7 +84,7 @@ const router = createBrowserRouter([
             errorElement: <ErrorElement />,
           },
           {
-            index: true,
+            path: "addjob",
             element: <AddJob />,
             action: addJobAction(queryClient),
           },
