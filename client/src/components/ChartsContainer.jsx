@@ -2,12 +2,9 @@ import { useState } from "react";
 
 import BarChart from "./BarChart";
 import AreaChart from "./AreaChart";
-import { useAppContext } from "../context/appContext";
 import Wrapper from "../assets/wrappers/ChartsContainer";
-
-const ChartsContainer = () => {
+const ChartsContainer = ({ data }) => {
   const [barChart, setBarChart] = useState(true);
-  const { monthlyApplications: data } = useAppContext();
 
   return (
     <Wrapper>
