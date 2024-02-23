@@ -26,3 +26,6 @@ The app allows users to track the status of their job applications. It is a valu
 - HTML
 
 * Deployed on Render 
+
+## ![‪Online Text Correction - Google Chrome‬ 13_08_45 05_49_38 م](https://github.com/MucahidDeveloper/jobify/assets/127043807/cc23b814-fefd-41bb-a6e9-4a4c7b45d7cb)
+
